@@ -29,6 +29,6 @@
 
 | Arquivo | Conteúdo | Link de Acesso |
 | :--- | :--- | :--- |
-| medico.csv | Cadastro dos médicos veterinários | [Acessar medico.csv](./medico.csv) |
+| medico.csv | Cadastro dos médicos veterinários | [Acessar médico.csv](./medico.csv) |
 | paciente.csv | Registros dos pacientes atendidos | [Acessar paciente.csv](./paciente.csv) |
 | consulta.csv | Histórico de consultas e atendimentos | [Acessar consulta.csv](./consulta.csv) |
