@@ -1,10 +1,5 @@
 # Projeto: Sistema de Gestão Veterinária
 
-![MER DER Conceitual](./mer_der_conceitual.png)
-![MER DER Lógico](./mer_der_logico.png)
-
-# Projeto: Sistema de Gestão Veterinária
-
 ![MER DER Conceitual](./mer%20der%20conceitual.png)
 ![MER DER Lógico](./mer%20der%20logico.png)
 
@@ -30,14 +25,10 @@
 | Consulta | Diagnostico | TEXT | - | Relatório e parecer clínico da consulta |
 | Consulta | Valor | DECIMAL | 10,2 | Valor cobrado pelo atendimento |
 
-## Dados de teste em CSV
+## Dados de Teste (Arquivos CSV)
 
-- [animal.csv](./animal.CSV)
-- [consulta.csv](./consulta.CSV)
-
-
-## Dados de teste em CSV
-- [animal.csv](./animal.CSV)
-- [consulta.csv](./consulta.CSV)
-- [dono.csv](./dono.CSV)
-- [veterinario.csv](./veterinario.CSV)
+| Arquivo | Conteúdo | Link de Acesso |
+| :--- | :--- | :--- |
+| medico.csv | Cadastro dos médicos veterinários | [Acessar medico.csv](./medico.csv) |
+| paciente.csv | Registros dos pacientes atendidos | [Acessar paciente.csv](./paciente.csv) |
+| consulta.csv | Histórico de consultas e atendimentos | [Acessar consulta.csv](./consulta.csv) |
