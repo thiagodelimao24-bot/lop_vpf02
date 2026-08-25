@@ -1,0 +1,6 @@
+id_consulta;id_paciente;id_medico ;data_hora;diagnostico;valor
+1;1;1;;Check-up de rotina Cardiologico;250.00
+2;2;2;;Avaliação de Manchas na pele;200.00
+3;3;3;;Consulta pediatra de acompanhamento;180.00
+4;4;4;;Dor no joelho direito após fisica;300.00
+5;5;1;;acompanhamento de pressão arterial;250.00

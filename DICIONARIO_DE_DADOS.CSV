@@ -1,0 +1,18 @@
+Tabela;Campo;Tipo de Dado;Tamanho;Descrição
+Paciente;id_paciente;Inteiro(INT);;indentificador único do paciente
+Paciente;nome;Texto(VARCHAR);100;Nome completo do paciente
+Paciente;cpf;Texto(VARCHAR);11;CPF do tutor/responsável
+Paciente;data_nasc;Data(DATE);;Data de nascimento do paciente
+Paciente;telefone;Texto(VARCHAR);15;telefone de contato do tutor
+Paciente;convenio;Texto(VARCHAR);50;nome do plano/convênio veterinário
+Médico;id_medico;Inteiro(INT);;indetificador único do médico veterinário
+Médico;nome;Texto(VARCHAR);100;nome completo do veterinário
+Médico;crm;Texto(VARCHAR);20;Registro do Conselho Regional de Medicina Veterinária
+Médico;especialidade;Texto(VARCHAR);50;Área de especialização do veterinário
+Médico;telefone;Texto(VARCHAR);15;Telefone de contato profissional
+Consulta;id_consulta;Inteiro(INT);;Identificador único do atendimento
+Consulta;id_paciente;Inteiro(INT);;Chave estrangeira referente ao paciente atendido
+Consulta;id_medico;Inteiro(INT);;Chave estrangeira referente ao veterinário responsável
+Consulta;data_hora;Data/Hora(DATATIME);;Data e horário da realização da consulta
+Consulta;diagnostico;Texto(TEXT);;"	Relatório e parecer clínico da consulta"
+Consulta;valor;Decimal(Decimal);10,2;Valor cobrado pelo atendimento
